@@ -4,4 +4,5 @@ python:
 install:
     - pip install -r requirements.txt
 script:
-    - python Travis/manage.py test
+    - cd Travis
+    - python manage.py test
